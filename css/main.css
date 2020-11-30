@@ -49,6 +49,7 @@ nav ul {
 
 .hero-banner {
   position: relative;
+  background-color: #000;
 }
 
 h2 {
@@ -125,7 +126,11 @@ hr {
   flex-direction: row;
 }
 
-.btn:hover {
+.instructors img {
+  width: 74%;
+}
+
+a:hover {
   background-color: #000;
   border-color: #000;
   color: #fff;
@@ -139,4 +144,10 @@ text-align: center;
   display: inline-flex;
   flex-wrap: wrap;
   width: 40%;
+}
+
+.icon {
+  width: 30%;
+  display: inline-block;
+  stroke: white;
 }
