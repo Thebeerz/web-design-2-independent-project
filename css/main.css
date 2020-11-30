@@ -156,7 +156,11 @@ text-align: center;
 }
 
 .icon {
-  width: 30%;
-  display: inline-block;
-  stroke: white;
+  width: 5%;
+  padding: .25rem;
+  margin: 0;
+  display: inline-flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
