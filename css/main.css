@@ -1,0 +1,52 @@
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.logo {
+  width: 30%;
+  padding: .25rem;
+  display: inline-block;
+}
+body {
+  background-color: #f3eae1;
+  color: #fff;
+}
+
+header {
+  background-color: #262363;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+hr {
+  border-bottom: 3px solid #fff;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 10%;
+  color: white;
+}
+
+.nav a span {
+  border: .3rem solid #bea59b;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+}
