@@ -65,8 +65,10 @@ h2 {
   top: 0;
   padding: .25rem;
   padding-left: .75rem;
-
+  bottom: 10%;
+  color: white;
 }
+
 nav a {
   padding: .6em .5em .75em;
   margin: 0;
@@ -97,17 +99,11 @@ a {
 }
 
 .tickets {
-  background-color: #262363
+  background-color: #262363;
 }
 
 hr {
   border-bottom: 3px solid #fff;
-}
-
-.banner-content {
-  position: absolute;
-  bottom: 10%;
-  color: white;
 }
 
 .blue-section {
