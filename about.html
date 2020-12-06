@@ -11,14 +11,13 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="wrapper">
 
-  <!-- <ul class="skip-links">
+  <ul class="skip-links">
     <li><a href="#nav">Jump to navigation</a></li>
     <li><a href="#main">Jump to main content</a></li>
-    <li><a href="#banner">Jump to banner</a></li>
     <li><a href="#footer">Jump to footer</a></li>
-  </ul> -->
+  </ul>
 
     <header role="banner" id="logo" tabindex="0">
     <section class="masthead">
@@ -37,16 +36,29 @@
     </section>
   </header>
 
-  <section class="about first-section" id="section">
-    <img src="images/about.jpg" alt="">
-    <div class="about">
-      <h2>About class Bee</h2>
-      <p>Class Bee is an annual event that invites all for a weekend of inspiration and creativity! We gather the best creatives in town to teach you their expertise in their various workshops.</p>
+  <main role="main" tabindex="0" id="main">
+    <section class="about first-section" id="section"   tabindex="0">
+      <img src="images/about.jpg" alt="">
+      <div class="about">
+        <h2>About class Bee</h2>
+        <p>Class Bee is an annual event that invites all for a weekend of inspiration and creativity! We gather the best creatives in town to teach you their expertise in their various workshops.</p>
 
-      <p>Founded by a group of art friends, our mission is to teach all things visual arts: painting, tattooing, printmaking, you name it!</p>
-      <nav>
-        <a class="tickets" href="tickets.html" aria-label="Get tickets">Get Tickets!</a>
-      </nav>
-
+        <p>Founded by a group of art friends, our mission is to teach all things visual arts: painting, tattooing, printmaking, you name it!</p>
+        <nav>
+          <a class="tickets" href="tickets.html" aria-label="Get tickets">Get Tickets!</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+  <footer role="contentinfo" id="footer" tabindex="0" class="blue-section">
+    <div>
+      <h3>Contact</h3>
+      <p>classbee@staff.com</p>
+      <p>7881 West Cypress Lane</p>
     </div>
-</section>
+    <div>
+      <p>© Class Bee workshops</p>
+    </div>
+  </footer>
+</body>
+</html>
