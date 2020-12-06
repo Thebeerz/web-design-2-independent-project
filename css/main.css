@@ -127,7 +127,7 @@ hr {
 }
 
 .instructors p {
-margin-top: .75rem;
+  margin-top: .75rem;
 }
 
 .instructors img {
@@ -142,7 +142,7 @@ margin-top: .75rem;
 }
 
 .sponsors {
-text-align: center;
+  text-align: center;
 }
 
 .sponsor-img {
