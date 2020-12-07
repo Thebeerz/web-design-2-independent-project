@@ -35,35 +35,25 @@
     </section>
   </header>
 
-  <h2>Get tickets and join Class Bee!</h2>
-    <section>
-      <img role="presentation" src="images/tickets.jpg" alt="" aria-details="tickets">
-    </section>
-    <form method="POST" action="https://formspree.io/">
-      <fieldset>
-        <legend id="form" tabindex="0">Learn from the best artists in town</legend>
-        <section>
-          <div>
-            <label for="email">Email</label>
-            <input class="push" id="email" type="email" name="email" required>
-          </div>
-
-          <div>
-            <label for="plan">Choose ticket type</label>
-            <select id="plan">
-              <option value="">Choose your ticket!</option>
-              <option>Regular</option>
-              <option>Student Discount</option>
-            </select>
-          </div>
-
-          </section>
-        </fieldset>
-        <div class="text-center pad-t">
-          <button class="btn btn-light kilo" type="submit" aria-label="Start classes">Purchase tickets</button>
-        </div>
-      </form>
+  <main role="main" id="main" tabindex="0">
+    <section class="instructors-section first-section" id="section"   tabindex="0">
+      <img class="instructors about-section" src="images/about.jpg" alt="">
+      <div>
+        <h2>Get tickets and join Class Bee!</h2>
+        <form method="POST" action="https://formspree.io/">
+            <legend id="form" tabindex="0"><strong>Learn from the best artists in town</strong></legend>
+          <p><label for="email">Email</label>
+          <input class="push" id="email" type="email" name="email" required></p>
+        <p><label for="plan">Choose ticket type</label>
+        <select id="plan">
+          <option value="">Choose your ticket!</option>
+          <option>Regular</option>
+          <option>Student Discount</option>
+        </select>
+        </p>
+      <button class="btn tickets btn-tickets" type="submit" aria-label="Start classes">Purchase tickets</a>
     </div>
+    </section>
   </main>
 
   <footer role="contentinfo" id="footer" tabindex="0" class="blue-section">

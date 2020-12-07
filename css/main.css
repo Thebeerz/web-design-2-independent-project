@@ -83,7 +83,7 @@ nav li {
   margin: 0;
 }
 
-a {
+a, button {
   text-decoration: none;
   color: white;
   border: solid .2rem #262363;
@@ -114,7 +114,6 @@ a {
 .our-instructors {
   margin-bottom: 1rem;
   text-align: center;
-
 }
 
 .instructors {
@@ -138,7 +137,7 @@ a {
   display: block;
 }
 
-.btn:hover a, .tickets:hover, .about:hover{
+.btn:hover a, .tickets:hover, .about:hover {
   background-color: #fff;
   color: black;
 }
@@ -167,19 +166,19 @@ a {
   transform: translateY(10%);
 }
 
-@media only screen and (min-width: 38em) {
+.btn-tickets {
+  display: flex;
+  align-self: flex-end;
+}
 
-  html {
-    font-size: 110%;
-    line-height: 1.5;
-  }
+@media only screen and (min-width: 38em) {
 
   h1 {
     margin-top: .7rem;
     font-weight: 600;
   }
 
-   .instructors{
+  .instructors {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -193,11 +192,9 @@ a {
     margin: 1rem 0 1.5rem;
   }
 
-  .logo {
+  .about-section {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: flex-start;
+    align-self: center;
   }
 
   .masthead {
@@ -207,8 +204,8 @@ a {
   }
 
   nav {
-  justify-content: center;
-  align-self: center;
+    justify-content: center;
+    align-self: center;
   }
 
   .banner, .banner-content {
@@ -241,29 +238,26 @@ a {
 
   .copyright {
     align-self: flex-end;
-   }
+  }
+
 }
 
-  @media only screen and (min-width: 60em) {
+@media only screen and (min-width: 60em) {
 
-    html {
-      font-size: 140%;
-      line-height: 1.6;
-    }
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
-    .banner-content {
-      display: block;
-    }
+  .banner-content {
+    display: block;
+  }
 
-    nav {
-    font-size: 130%;
+  nav {
+    font-size: 120%;
     justify-content: center;
     margin: 2rem;
     margin-top: 4rem;
-  }
-
-  .logo {
-    width: 70%;
   }
 
   ol {
@@ -271,3 +265,4 @@ a {
     line-height: 1.6;
     margin: 2rem 0 0 7rem;
   }
+}
