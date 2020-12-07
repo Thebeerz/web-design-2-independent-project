@@ -171,6 +171,18 @@ a, button {
   align-self: flex-end;
 }
 
+a:focus,
+[tabindex="0"]:focus,
+details:focus,
+summary:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+  outline: 3px solid #fff;
+  outline-offset: 0;
+}
+
 @media only screen and (min-width: 38em) {
 
   h1 {
