@@ -29,25 +29,41 @@
       <nav role="navigation" id="nav" tabindex="0" class="nav">
         <ul class="right nav list-group list-group-inline push-0">
           <li class="btn"><a href="index.html">Home</a></li>
-          <li class="btn"><a href="tickets.html">Tickets</a></li>
+          <li class="btn"><a href="about.html">About</a></li>
         </ul>
       </nav>
     </section>
   </header>
 
-  <main role="main" id="main" tabindex="0">
-    <section class="about first-section" id="section"   tabindex="0">
-      <img src="images/about.jpg" alt="">
-      <div class="about">
-        <h2>About class Bee</h2>
-        <p>Class Bee is an annual event that invites all for a weekend of inspiration and creativity! We gather the best creatives in town to teach you their expertise in their various workshops.</p>
-
-        <p>Founded by a group of art friends, our mission is to teach all things visual arts: painting, tattooing, printmaking, you name it!</p>
-        <nav>
-          <a class="btn tickets" href="tickets.html" aria-label="Get tickets">Get Tickets!</a>
-        </nav>
-      </div>
+  <h2>Get tickets and join Class Bee!</h2>
+    <section>
+      <img role="presentation" src="images/tickets.jpg" alt="" aria-details="tickets">
     </section>
+    <form method="POST" action="https://formspree.io/">
+      <fieldset>
+        <legend id="form" tabindex="0">Learn from the best artists in town</legend>
+        <section>
+          <div>
+            <label for="email">Email</label>
+            <input class="push" id="email" type="email" name="email" required>
+          </div>
+
+          <div>
+            <label for="plan">Choose ticket type</label>
+            <select id="plan">
+              <option value="">Choose your ticket!</option>
+              <option>Regular</option>
+              <option>Student Discount</option>
+            </select>
+          </div>
+
+          </section>
+        </fieldset>
+        <div class="text-center pad-t">
+          <button class="btn btn-light kilo" type="submit" aria-label="Start classes">Purchase tickets</button>
+        </div>
+      </form>
+    </div>
   </main>
 
   <footer role="contentinfo" id="footer" tabindex="0" class="blue-section">

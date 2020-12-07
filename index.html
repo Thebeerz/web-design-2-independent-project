@@ -10,8 +10,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700&display=swap" rel="stylesheet">
 </head>
-
-<body class="wrapper">
+<body>
 
   <ul class="skip-links">
     <li><a href="#nav">Jump to navigation</a></li>
@@ -39,7 +38,7 @@
 
   <main role="main" id="main" tabindex="0">
     <section class="hero-banner">
-      <img src="images/banner.jpg" alt="" aria-details="banner">
+      <img class="banner" src="images/banner.jpg" alt="" aria-details="banner">
       <div class="banner-content" id="banner" tabindex="0">
         <h2 class="bee creative">Bee creative, Bee inspired</h2>
         <p class="text-left">A visual arts workshop for creative souls.</p>
@@ -48,14 +47,14 @@
       </div>
     </section>
 
-    <section id="section" tabindex="0" class="blue-section">
-      <div class="second-section">
+    <section id="section" tabindex="0" class="our-section">
         <h2 class="our-instructors">Our Instructors</h2>
+        <div class="instructors-section">
 
         <div id="instructors" tabindex="0" class="instructors">
           <img src="images/vincent.jpg" alt="vincent van gogh">
           <h3>Vincent Van Gogh</h3>
-          <p>With a large following on Instagram, Vincent has cultivated quite a fanbase for his artistic and whimsical touch in all his paintings.</p>
+          <p>With a large following on Instagram, Vincent cultivated a fanbase for his artistic touch in all his paintings.</p>
         </div>
 
         <div class="instructors">
@@ -73,7 +72,7 @@
         <div class="instructors">
           <img src="images/abeer.jpg" alt="Chris do">
           <h3>Abeer Almont</h3>
-          <p>Nearly 20 years of illustration experience, Abeer shares her best tools and secrets to digital illustration and animation </p>
+          <p>Nearly 20 years of illustration experience, Abeer shares her best tools and secrets to digital animation </p>
         </div>
       </div>
     </section>
@@ -82,17 +81,17 @@
       <div class="first-section agenda">
         <h2>Agenda</h2>
         <ol>
-          <li>2pm</li>
+          <li><strong>2:00pm</strong></li>
           <li>Doors open</li>
-          <li>3pm</li>
+          <li><strong>3:00pm</strong></li>
           <li>Vincent's Squiggles</li>
-          <li>4pm</li>
+          <li><strong>4:00pm</strong></li>
           <li>Cup of Jasmien</li>
-          <li>5pm</li>
+          <li><strong>5:00pm</strong></li>
           <li>Snack time!</li>
-          <li>6pm</li>
+          <li><strong>6:00pm</strong></li>
           <li>Pocket full of Do</li>
-          <li>7pm</li>
+          <li><strong>7:00pm</strong></li>
           <li>Beer's animations</li>
         </ol>
         <nav>
@@ -103,10 +102,12 @@
 
     <section>
       <div class="blue-section">
-        <img src="images/venue.jpg" alt="The Venue">
-        <h2>The Venue</h2>
-        <h3>The Ottawa Art Gallery</h3>
-        <p>50 Mackenzie King Bridge, Ottawa, ON K1N 0C5.</p>
+        <img class="venue-img" src="images/venue.jpg" alt="The Venue">
+        <div class="venue-content">
+          <h2>The Venue</h2>
+          <p>The Ottawa Art Gallery</p>
+          <p>50 Mackenzie King Bridge, Ottawa, ON K1N 0C5.</p>
+      </div>
       </div>
     </section>
 
@@ -125,8 +126,8 @@
       <p>classbee@staff.com</p>
       <p>7881 West Cypress Lane</p>
     </div>
-    <div>
-      <p>© Class Bee workshops</p>
+    <div class="copyright">
+      <p><small>© Class Bee workshops</small></p>
     </div>
   </footer>
 </body>
