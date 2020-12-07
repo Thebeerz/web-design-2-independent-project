@@ -135,10 +135,9 @@ hr {
   display: block;
 }
 
-.btn:hover {
-  background-color: #000;
-  border-color: #000;
-  color: #fff;
+.btn:hover a {
+  background-color: #fff;
+  color: black;
 }
 
 .sponsors {
@@ -160,3 +159,28 @@ hr {
   flex-wrap: wrap;
   flex-direction: row;
 } */
+
+a:focus,
+[tabindex="0"]:focus,
+details:focus,
+summary:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+  outline-offset: 0;
+}
+
+.skip-links a {
+  background: #fff;
+  color: #000;
+  top: -5%;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform .3s;
+}
+
+.skip-links a:focus {
+  transform: translateY(10%);
+}
