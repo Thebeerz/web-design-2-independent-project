@@ -173,10 +173,10 @@ a, button {
 
 a:focus,
 [tabindex="0"]:focus,
-details:focus,
-summary:focus,
+section:focus,
+nav:focus,
 input:focus,
-textarea:focus,
+footer:focus,
 button:focus,
 select:focus {
   outline: 3px solid #fff;
