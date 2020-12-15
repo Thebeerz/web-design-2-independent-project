@@ -7,6 +7,14 @@ img {
   width: 100%;
 }
 
+.background-image {
+  color: #fff;
+  background-color: #262363;
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+}
+
 .logo {
   width: 50%;
 }
@@ -250,6 +258,11 @@ select:focus {
 
   .copyright {
     align-self: flex-end;
+  }
+
+  .background-image {
+    color: #fff;
+    background-color: #262363;
   }
 
 }
